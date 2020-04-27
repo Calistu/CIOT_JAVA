@@ -1,5 +1,5 @@
-
 public class Logon {
+	
 	//Login entrada
 	String Usuario; //email ou cpf cadastrado
 	String Senha;   //senha cadastrada
@@ -10,5 +10,5 @@ public class Logon {
 	String Token;
 	String ExcecaoMsg;
 	boolean Sucesso;
-	
+		
 }

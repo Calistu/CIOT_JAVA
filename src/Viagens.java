@@ -6,10 +6,9 @@ public class Viagens {
 	String CepDestino;
 	long DistanciaPercorrida;
 	String TipoPagamento;
-	NotasFiscais NFe;
-	Valores valores;
+	NotasFiscais []NFe;
+	Valores valores	;
 	public Viagens(){
-		
 		valores = new Valores();
 	}
 }

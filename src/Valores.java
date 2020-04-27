@@ -7,5 +7,8 @@ public class Valores {
 	float Combustivel;
 	float Pedagio;
 	float OutrosCreditos;
-	float JustificativaOutrosCreditos;
+	String JustificativaOutrosCreditos;
+	float Seguro;
+	float OutrosDebitos;
+	String JustificativaOutrosDebitos;
 }

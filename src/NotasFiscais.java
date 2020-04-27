@@ -2,6 +2,7 @@ import java.util.Date;
 
 public class NotasFiscais {
 	//Raiz NotasFiscais 1-N
+	
 	long NotaFiscal;
 	long Numero;
 	int serie;
@@ -20,6 +21,7 @@ public class NotasFiscais {
 	ToleranciaMargens Tolerancia;
 	ToleranciaMargens Ganho;
 	ToleranciaMargens Perda;
+	
 	public NotasFiscais (){
 		ToleranciaMargens PerdadeMercadoria = new ToleranciaMargens();
 		ToleranciaMargens Tolerancia = new ToleranciaMargens();

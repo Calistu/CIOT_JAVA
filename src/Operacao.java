@@ -11,10 +11,10 @@ public class Operacao {
 	String MatrizCNPJ;
 	String FilialCNPJ;
 	
-	String IdOperacaoCliente;	//provavel codígo de controle no sistema
+	String IdOperacaoCliente;	//provavelmente é referente ao codígo de controle no sistema
 	String DataInicioViagem;
 	String DataFimViagem;
-	String CodigoNCMNaturezaCarga;	//Código NCM da mercadoria, no caso de mais que um, utilizar o de maior valor
+	String CodigoNCMNaturezaCarga;	//Código NCM da mercadoria, no caso de mais que um, utilizar o de maior valor comercial
 	String PesoCarga;	//peso total em quilos
 	String TipoEmbalagem; //deve ser usado itens da ENUM
 	String CIOT;
@@ -47,16 +47,16 @@ public class Operacao {
 	int Pagamento; // -Transferencia Bancaria / -eFRETE / -Outros 
 	
 	public Operacao() {
-		Viagens viagem = new Viagens();
-		Impostos imposto = new Impostos();
-		Pagamentos pagamento = new Pagamentos();
 		
-		Contratante contratante = new Contratante();
-		Contratado contratado = new Contratado();
-		SubContratante subcontratante = new SubContratante();
-		Consignatario consignatario = new Consignatario();
-		TomadorServico tomadorServico = new TomadorServico();
-		Veiculos veiculo = new Veiculos();		
+		viagem = new Viagens();
+		imposto = new Impostos();
+		pagamento = new Pagamentos();
+		contratante = new Contratante();
+		contratado = new Contratado();
+		subcontratante = new SubContratante();
+		consignatario = new Consignatario();
+		tomadorServico = new TomadorServico();
+		veiculo = new Veiculos();		
 	}
 	public void getFreteRetorno(){
 		
