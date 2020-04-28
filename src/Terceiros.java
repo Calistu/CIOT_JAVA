@@ -8,4 +8,10 @@ public class Terceiros {
 	Telefones Fixo;
 	String Email;
 	boolean ResponsavelPeloPagamento;
+	public Terceiros() {
+		ContEndereco = new Endereco();
+		Celular = new Telefones();
+		Fax = new Telefones();
+		Fixo = new Telefones();
+	}
 }

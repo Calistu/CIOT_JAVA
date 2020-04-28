@@ -29,4 +29,5 @@ public class NotasFiscais {
 		ToleranciaMargens Perda = new ToleranciaMargens();
 	}
 	
+	
 }

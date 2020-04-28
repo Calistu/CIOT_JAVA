@@ -8,7 +8,15 @@ public class Viagens {
 	String TipoPagamento;
 	NotasFiscais []NFe;
 	Valores valores	;
+	private int NotasFiscaisQnt;
+	
 	public Viagens(){
 		valores = new Valores();
+	}
+	public int getNotasFiscaisQnt(){
+		return this.NotasFiscaisQnt;
+	}
+	public void setNotasFiscaisQnt(int qnt){
+		this.NotasFiscaisQnt = qnt;
 	}
 }

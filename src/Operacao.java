@@ -23,8 +23,10 @@ public class Operacao {
 	Impostos imposto;
 	Pagamentos pagamento;
 	
+	Motorista motorista;
 	Contratante contratante;
 	Contratado contratado;
+	Destinatario destinatario;
 	SubContratante subcontratante;
 	Consignatario consignatario;
 	TomadorServico tomadorServico;
@@ -57,6 +59,8 @@ public class Operacao {
 		consignatario = new Consignatario();
 		tomadorServico = new TomadorServico();
 		veiculo = new Veiculos();		
+		motorista = new Motorista();
+		destinatario = new Destinatario();
 	}
 	public void getFreteRetorno(){
 		
